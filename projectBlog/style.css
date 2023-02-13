@@ -1,0 +1,215 @@
+@media only screen and (max-width: 600px) {
+    .body-text { display:flex;
+        flex-direction: column;
+    }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: darkseagreen;
+    color: white;
+}
+
+.body-text {
+    text-align: center;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+}
+
+.heading {
+    background-color: teal;
+    display: flex;
+    justify-content: flex-start;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+h4 {
+    background-color: teal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: teal;
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav-links {
+    background-color: teal;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li {
+    background-color: teal;
+    display: flex;
+    list-style: none;
+
+}
+
+.nav-links a {
+    background-color: teal;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 16px;
+
+}
+
+.nav-links a:hover:not(.active) {
+    background-color: lightseagreen;
+
+}
+
+.welkom {
+    font-size: 24px;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    background-color: #8fbc8f;
+    margin-top:100px;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.hobby {
+    display: flex;
+    font-size: 24px;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #8fbc8f;
+}
+
+.voetbal {
+    width: 650px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: rgb(149, 188, 143);
+}
+
+.Gamen {
+    width: 650px;
+    margin-top: 0px;
+    margin-left: 50px;
+    background-color: rgb(152, 188, 143);
+}
+
+.vissen {
+    width: 650px;
+    align-items: flex-end;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    background-color: rgb(152, 188, 143);
+}
+
+.basisschool {
+    width: 650px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: rgb(152, 188, 143);
+}
+
+
+.middelbare {
+    width: 650px;
+    margin-bottom: -100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: rgb(152, 188, 143);
+}
+
+
+.vervolg {
+    width: 650px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: -50px;
+    background-color: rgb(152, 188, 143);
+}
+
+.werk1 {
+    width: 650px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.werk2 {
+    width: 650px;
+    margin-top: 150px;
+}
+
+.werk3 {
+    width: 650px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.algemeen {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.muziek {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border-color: rgb(0, 120, 30);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border-color: rgb(0, 120, 30);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.formulier {
+    border-color: rgb(0, 120, 30);
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 5px;
+}
+
+footer{
+    margin-top:30px;
+}

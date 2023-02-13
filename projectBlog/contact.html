@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">
+            <h4>Mijn blog</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="overmij.html">Overmij</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="opleiding.html">opleiding</a></li>
+            <li><a href="werk.html">CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="hobby">
+        <h1>Contact formulier</h1>
+    </div>
+
+    <div class="formulier">
+        <form action="/action_page.php">
+            <label for="fname">Voornaam</label>
+            <input type="text" id="vname" name="voornaam" placeholder="Voornaam">
+            
+            <label for="lname">Achternaam</label>
+            <input type="text" id="aname" name="achternaam" placeholder="Achternaam">
+            
+            <label for="country">Land</label>
+            <select id="Land" name="Land">
+            <option value="Nederland">Nederland</option>
+            <option value="België">België</option>
+            <option value="Engelang">Engeland</option>
+            <option value="Amerika">Amerika</option>
+            <option value="Frankrijk">Frankrijk</option>
+            <option value="Duitsland">Duitsland</option>
+            <option value="Spanje">Spanje</option>
+            </select>
+            
+            <label for="subject">opmerking</label>
+            <textarea id="opmerking" name="opmerking" placeholder="Schrijf iets..." style="height:200px"></textarea>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <footer>
+        <p>@justin</p>
+    </footer>
+
+</body>
+
+</html>

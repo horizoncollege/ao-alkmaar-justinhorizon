@@ -1,0 +1,52 @@
+ img {
+     width: 200px;
+     height: 200px;
+ }
+
+ body {
+     background-color: lightblue;
+ }
+
+ .indextext {
+     display: flex;
+     text-align: center;
+     flex-direction: column;
+ }
+
+ .indexbutton {
+     display: flex;
+     justify-content: center;
+     padding: 10px;
+ }
+
+ .gameafbeelding {
+     display: flex;
+     justify-content: center;
+ }
+
+ .gametext {
+     display: flex;
+     justify-content: center;
+ }
+
+ .gamebuttons {
+     display: flex;
+     justify-content: center;
+ }
+
+ .eigentitel {
+     display: flex;
+     justify-content: center;
+
+ }
+
+ .eigentext {
+     display: flex;
+     justify-content: center;
+
+ }
+
+ .eigenbutton {
+     display: flex;
+     justify-content: center;
+ }
