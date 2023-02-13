@@ -8,4 +8,4 @@ Justin
 
 # website
 
-[Figma link hier](https://www.170825.ao-alkmaar.nl/#)
+[Website link](https://www.170825.ao-alkmaar.nl/#)
